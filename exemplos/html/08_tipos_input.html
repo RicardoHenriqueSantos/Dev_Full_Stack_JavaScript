@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Tipos</title>
+</head>
+<body>
+    <h3>Tipos</h3>
+    <form action="https://www.google.com/search">
+        
+        <label for="name">Nome</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" autocomplete="off" required><br><br>
+        
+        <label for="senha">Senha</label><br>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <p>Sexo</p>
+        <input type="radio" id="masculino" name="sexo" checked>
+        <label for="masculino">Masculino</label><br>
+        
+        <input type="radio" id="feminino" name="sexo">
+        <label for="feminino">Feminino</label><br><br>
+        
+        <p>Linguagens de Programação</p>
+        <input type="checkbox" id="java" name="java">
+        <label for="java">Java</label>
+        
+        <input type="checkbox" id="python" name="python">
+        <label for="python">Python</label>
+
+        <input type="checkbox" id="ruby" name="ruby">
+        <label for="ruby">Ruby</label><br><br>
+
+        <input type="submit" onclick="alert('Cadastro Realizado!')" value="Pesquisar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
