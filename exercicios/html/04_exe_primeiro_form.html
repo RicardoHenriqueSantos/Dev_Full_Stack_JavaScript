@@ -5,51 +5,78 @@
     <title>Cadastro da Liga dos Astronautas</title>
 </head>
 <body>
+
+    <!-- TÍTULO PRINCIPAL -->
     <h3>Cadastro da Liga dos Astronautas</h3>
+    
+    <!-- SEÇÃO QUE PERMITE INTERAÇÃO AO USUÁRIO SUBMETENDO INFORMAÇÕES -->
     <form action="">
-    <label for="nome">Nome: </label>
-    <input type="text" name="nome" placeholder="Digite o seu nome" required><br><br>
     
-    <label for="email">Email: </label>
-    <input type="email" name="email" autocomplete="off" required>
-    
-    <label for="senha">- Senha: </label>
-    <input type="password" name="senha" min="8" required><br><br>
+    <!-- DADOS - CAMPO NOME -->
+    <div>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" placeholder="Digite o seu nome" required><br><br>
+    </div>
 
-    <label for="data_nascimento">Data de Nascimento: </label>
-    <input type="date" name="data_nascimento" required>
-
-    <label for="foto">- Foto: </label>
-    <input type="file" name="foto" required><br><br>
-
-    <label for="nacionalidade">Nacionalidade</label>
-    <select name="nacionalidade" required>
-        <option value="american">EUA</option>
-        <option value="russian">Rússia</option>
-        <option value="brazilian">Brasil</option>
-    </select>
+    <!-- DADOS - CAMPOS EMAIL E SENHA -->
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" autocomplete="off" required>
     
-    Gênero: 
-        <label for="masculino" id="masculino">M</label>
-        <input type="radio" name="sexo" checked>
-        <label for="feminino" id="feminino">F</label>
-        <input type="radio" name="sexo"><br><br>
-    
-    Suas principais qualidades: <br>
-    <label for="inteligencia">Inteligência</label>
-    <input type="checkbox">
-    <label for="resiliencia">| Resiliência</label>
-    <input type="checkbox">
-    <label for="preparo">| Preparo Físico</label>
-    <input type="checkbox">
-    <label for="educacao">| Educação</label>
-    <input type="checkbox"><br><br>
+        <label for="senha">- Senha: </label>
+        <input type="password" name="senha" min="8" required><br><br>
+    </div>
 
-    <label for="texto"></label>
-    <textarea name="texto" cols="30" rows="10" placeholder="Por que você gostaria de ser um astronauta?" required></textarea><br><br>
-    
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
+    <!-- DADOS - CAMPOS DATA DE NASCIMENTO E UPLOAD DE FOTO -->
+    <div>
+        <label for="data_nascimento">Data de Nascimento: </label>
+        <input type="date" name="data_nascimento" required>
+
+        <label for="foto">- Foto: </label>
+        <input type="file" name="foto" required><br><br>
+    </div>
+
+    <!-- DADOS - CAMPOS DE SELEÇÃO DE NACIONALIDADE E GÊNERO -->
+    <div>
+        <label for="nacionalidade">Nacionalidade</label>
+        <select name="nacionalidade" required>
+            <option value="american">EUA</option>
+            <option value="russian">Rússia</option>
+            <option value="brazilian">Brasil</option>
+        </select>
+        
+        Gênero: 
+            <label for="masculino" id="masculino">M</label>
+            <input type="radio" name="sexo" checked>
+            <label for="feminino" id="feminino">F</label>
+            <input type="radio" name="sexo"><br><br>
+    </div>
+
+    <!-- DADOS - CAMPO SELEÇÃO DAS QUALIDADES -->
+    <div>    
+        Suas principais qualidades: <br>
+        <label for="inteligencia">Inteligência</label>
+        <input type="checkbox">
+        <label for="resiliencia">| Resiliência</label>
+        <input type="checkbox">
+        <label for="preparo">| Preparo Físico</label>
+        <input type="checkbox">
+        <label for="educacao">| Educação</label>
+        <input type="checkbox"><br><br>
+    </div>
+
+    <!-- DADOS - CAMPO TEXTO DO USUÁRIO -->
+    <div>
+        <label for="texto"></label>
+        <textarea name="texto" cols="30" rows="10" placeholder="Por que você gostaria de ser um astronauta?" required></textarea><br><br>
+    </div>
+
+    <!-- ENVIO OU LIMPEZA DOS DADOS INFORMADOS -->
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>
+
 </form>
 </body>
 </html>
