@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blog_container{
+    width: 70%;
+    height: 80%;
+    margin: 0px auto 0px auto;
+    background-color: #FFFAFA;
+}
+
+.blog_container .blog_date{
+    font-family: 'Roboto', sans-serif;
+    color: #008080;
+}
+
+.blog_container .blog_div .blog_text{
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 2.0;
+}
+
+.blog_container .blog_div{
+    margin: 50px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
