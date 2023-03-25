@@ -1,0 +1,12 @@
+div{
+    color: blue;
+    border: 1px solid;
+}
+
+div ul{
+    border: inherit;
+}
+
+div ul li{
+    color: blueviolet;
+}

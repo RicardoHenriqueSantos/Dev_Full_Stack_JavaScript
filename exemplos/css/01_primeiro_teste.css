@@ -1,0 +1,23 @@
+body{
+    background-image: url('https://svs.gsfc.nasa.gov/vis/a010000/a012000/a012021/JupiterThumbnailSmall.png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+h1{
+    font-size: 50px;
+    color: palevioletred;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: 2px;
+}
+
+h4{
+    font-size: 30px;
+    color: palevioletred;
+}
+
+ul{
+    font-size: 25px;
+    color: blueviolet;
+}

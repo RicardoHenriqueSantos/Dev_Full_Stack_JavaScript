@@ -1,0 +1,25 @@
+/* "*" - SELECIONA TODOS OS ELEMENTOS DA PÁGINA
+*{
+    border: 2px solid;
+}*/
+
+/* SELECIONA DESCENDENTES "a" NOS ITENS DAS LISTAS*/
+/* PODENDO UTILIZAR ">" PARA ESPECIFICAR O FILHO DAQUELE ELEMENTO*/
+li a{
+    color: blue;
+}
+
+/* ADJACENTE - APLICA NO ELEMENTO APÓS ELEMENTO INICIAL DEFINIDO */
+h2 + h4 {
+    border: 2px solid;
+}
+
+/* ATRIBUTO - REALIZA UMA BUSCA EM TODOS OS ANCHORS */
+a[href=""]{
+    border: blueviolet solid;
+}
+
+/* SELECIONAR ELEMENTOS DE UMA FORMA MAIS ESPECÍFICA */
+li:nth-of-type(1){
+    color: crimson;
+}
